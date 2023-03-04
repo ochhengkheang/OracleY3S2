@@ -53,7 +53,7 @@ DELETE FROM emp_temp
 where id= 2;
 
 DELETE emp_temp
-where id= 1;
+where id= 12323;
 
 DELETE emp_temp
 where id in (select employee_id from employees);
